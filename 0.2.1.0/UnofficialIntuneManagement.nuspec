@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>UnofficialIntuneManagement</id>
+        <version>0.2.1.0</version>
+        <authors>Hugo Klemmestad, Kristoffer Ryeng</authors>
+        <owners>Office Center</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Module with Microsoft Intune functions, inspired by the Microsoft Intune Team's PowerShell Samples on https://github.com/microsoftgraph/powershell-intune-samples.</description>
+        <releaseNotes>Version 0.2: Functions split in separate files for easier coding. Some funtions are rewritten. </releaseNotes>
+        <copyright>Copyright 2017 Office Center</copyright>
+        <tags>OCH automatisering</tags>
+    </metadata>
+</package>
