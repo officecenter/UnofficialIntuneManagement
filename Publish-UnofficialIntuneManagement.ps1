@@ -1,1 +1,0 @@
-publish-module -Path "c:\git\UnofficialIntuneManagement\" -NuGetApiKey  021a391a-0878-462b-bc89-18e50ac35fc9
