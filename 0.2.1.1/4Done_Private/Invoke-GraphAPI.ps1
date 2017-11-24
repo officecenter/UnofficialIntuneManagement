@@ -38,7 +38,7 @@ Function Invoke-GraphAPI
   (
     [ValidateSet('v1.0','beta')]
     [String]
-    $graphApiVersion = 'beta',
+    $graphApiVersion = 'v1.0',
 
     [Parameter(ParameterSetName = 'BODY', Position = 0, Mandatory = $false)]
     [Parameter(ParameterSetName = 'GET', Position = 0, Mandatory = $false)]
