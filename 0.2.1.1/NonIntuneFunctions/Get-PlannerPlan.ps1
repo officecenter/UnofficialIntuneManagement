@@ -23,7 +23,7 @@ NAME: Get-IntuneBrand
 	try {
         $id = "5LQAj5A6hkOqHu1zNwN6uZYAH9yV"
 		$Resource = "planner/plans/$id/tasks"
-		Invoke-GraphAPI -Method PATCH
+		Invoke-GraphAPI -Method GET
 	}
 
 	catch {
