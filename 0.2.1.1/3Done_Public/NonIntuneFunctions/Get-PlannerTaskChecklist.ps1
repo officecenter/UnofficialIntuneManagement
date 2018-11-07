@@ -21,13 +21,15 @@ Function Get-PlannerTaskChecklist{
         )
             
         try {
-            $id = "fr8TS3WXqkSM1NwAMnUm-pYAP-tl"
+            $id = "lm9ncYGXpU-D86fYQntSbJYAFlhu"
             
             $Resource = "/planner/tasks/$id/details"
             $t = Invoke-GraphAPI -Method PATCH
             $t | Export-Excel C:\Git\Planner.xlsx
-            #$Resource = "/planner/tasks/$id/checklist"
-            #Invoke-GraphAPI -Method PATCH | select * | ogv
+
+            $t.checklist
+            $Resource = "/planner/tasks/$id/checklist"
+            
         }
     
         catch {
